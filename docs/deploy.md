@@ -7,41 +7,41 @@
 点击 [下载](https://github.com/esofar/cnblogs-theme-silence/archive/master.zip)  本主题最新版本源码包，下载完毕后，使用解压工具解压并进入解压后目录，其结构大致如下所示：
 
 ```
-│  .babelrc                                                   
-│  .gitignore                                                 
-│  LICENSE                                                    
-│  package-lock.json                                          
-│  package.json                                               
-│  README.md                                                  
-│                                                             
-├─dist                           // 编译发布目录                                      
-│  │  silence.min.js                                          
-│  │                                                          
-│  └─themes                                                   
-│          dark.min.css                                       
-│          default.min.css                                    
-│          goddess.min.css                                    
-│                                                             
-├─docs                           // 文档相关目录                                       
-│      change.md                                              
-│      logo.png                                               
-│      theme_dark.png                                         
-│      theme_default.png                                      
-│      theme_goddess.png                                      
-└─src                            // 源码存放目录                               
-    │  silence.js                                             
-    │  silence.less                                           
-    │                                                         
-    ├─images                                                  
-    │      contents.png                                         
-    │      follow.png                                   
-    │      gotop.png                                            
-    │                                                         
-    └─themes                                                  
-            dark.less                                         
-            default.less                                      
-            goddess.less                                      
-                                                              
+│  .babelrc
+│  .gitignore
+│  LICENSE
+│  package-lock.json
+│  package.json
+│  README.md
+│
+├─dist                           // 编译发布目录
+│  │  silence.min.js
+│  │
+│  └─themes
+│          dark.min.css
+│          default.min.css
+│          goddess.min.css
+│
+├─docs                           // 文档相关目录
+│      change.md
+│      logo.png
+│      theme_dark.png
+│      theme_default.png
+│      theme_goddess.png
+└─src                            // 源码存放目录
+    │  silence.js
+    │  silence.less
+    │
+    ├─images
+    │      contents.png
+    │      follow.png
+    │      gotop.png
+    │
+    └─themes
+            dark.less
+            default.less
+            goddess.less
+
 ```
 
 然后打开博客园后台 [管理](https://i.cnblogs.com/) 页面，进行后续操作。
@@ -91,8 +91,8 @@ https://blog-static.cnblogs.com/files/esofar/silence.min.js
 <script type="text/javascript">
     $.silence({
 	base: {
-            avatar: 'http://images.cnblogs.com/cnblogs_com/esofar/972540/o_avatar.jpg',
-            favicon: 'https://files.cnblogs.com/files/esofar/favicon.ico',
+            avatar: 'https://images.cnblogs.com/cnblogs_com/smzd/1591946/o_1911151802324e2bf0840439a347d435f168ae977ec.png',
+            favicon: 'https://files-cdn.cnblogs.com/files/smzd/bitbug_favicon.ico',
         },
         catalog: {
             enable: true,
@@ -111,12 +111,12 @@ https://blog-static.cnblogs.com/files/esofar/silence.min.js
         sponsor: {
             enable: true,
             paypal: null,
-            wechat: 'https://images.cnblogs.com/cnblogs_com/esofar/972540/o_wechat.png',
-            alipay: 'https://images.cnblogs.com/cnblogs_com/esofar/972540/o_alipay.png'
+            wechat: 'https://images.cnblogs.com/cnblogs_com/smzd/1591943/o_b3a16201f95b85360f3b62655a2597d.png',
+            alipay: 'https://images.cnblogs.com/cnblogs_com/smzd/1591943/o_1caae0f9c99ce2462a15fa437850866.png'
         },
         github: {
             enable: true,
-            link: 'https://github.com/esofar'
+            link: 'https://github.com/Algesthesiahunter'
         }
     });
 </script>
